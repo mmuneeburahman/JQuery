@@ -18,9 +18,10 @@ $("h1").text("Good Bye");
 $("button").text("Don't Click Me");
 $("button").html("Don't <i>Click</i> Me");
 
-var btns = $("button")
-btns.set(0).text("Click Me");
-console.log(btns.get(0));
-console.log(btns);
-// btns[0].text("Click Me");
-// btns[0].css("background-color", "green");
+
+$("img").addClass("square-200");
+$("img").attr("src", "drum.jpg");
+$("a").attr("href", "https://www.yahoo.com");
+
+console.log($("h1").attr("class"));
+
